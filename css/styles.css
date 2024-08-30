@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 0 auto;
+  width: 80%;
+  height: 80vh;
+  background-color: #123123;
+  border: 1px solid #123123;
+}
+
+.item{
+  padding: 1rem;
+  font-size: 1.2rem;
+  background: #448;
+  border: 1px solid #fff;
+}

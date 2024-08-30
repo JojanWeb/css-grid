@@ -1,0 +1,15 @@
+@import url(styles.css);
+
+.grid-nombre-lineas{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: [line-C1] 1fr [line-C2] 1fr [line-C3] 1fr [line-C4];
+  grid-template-rows: [line-R1] 1fr [line-R2] 1fr [line-R3] 1fr [line-R4];;
+}
+
+.item:nth-child(4){
+  background-color: brown;
+  grid-column: line-C1 / line-C3;
+  grid-row: line-R2 / line-R4;
+}
